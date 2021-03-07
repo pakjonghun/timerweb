@@ -11,6 +11,7 @@ const Container = styled.div`
 
 const Time = styled.div``;
 
+//숫자 흔들림 방지를 위한 글자 크기 와 너비 비율 조정(폰트사이즈, 그리드)
 const TimeBox = styled.div`
   width: 15vw;
   font-size: 2.4rem;
@@ -23,6 +24,7 @@ const TimeBox = styled.div`
   }
 `;
 
+//숫자흔들림 현상 방지를 위해 grid 및 숫자별 태그 부여
 const TimerPresenter = ({
   second,
   minute,
